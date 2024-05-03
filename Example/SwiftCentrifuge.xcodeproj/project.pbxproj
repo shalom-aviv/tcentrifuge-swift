@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A58470528C9CF4800D85C0E /* SwiftCentrifuge in Frameworks */ = {isa = PBXBuildFile; productRef = 3A58470428C9CF4800D85C0E /* SwiftCentrifuge */; };
 		3A451D4028D2EE33004F85A5 /* PrintLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A451D3F28D2EE33004F85A5 /* PrintLogger.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -15,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		DE2E2CA9220FEAC8004541DE /* BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7C1AA8220F0E1A0037AE1E /* BasicTests.swift */; };
 		DE7C1AA4220F0D950037AE1E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7C1AA3220F0D950037AE1E /* Launch Screen.storyboard */; };
+		F71A6FEF2BE542F200D06243 /* TSwiftCentrifuge in Frameworks */ = {isa = PBXBuildFile; productRef = F71A6FEE2BE542F200D06243 /* TSwiftCentrifuge */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A58470528C9CF4800D85C0E /* SwiftCentrifuge in Frameworks */,
+				F71A6FEF2BE542F200D06243 /* TSwiftCentrifuge in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +66,7 @@
 				607FACD21AFB9204008FA782 /* Example for SwiftCentrifuge */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				F71A6FED2BE542F200D06243 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,7 +125,14 @@
 				DE7C1AA8220F0E1A0037AE1E /* BasicTests.swift */,
 			);
 			name = SwiftCentrifugeTests;
-			path = ../../Tests/SwiftCentrifugeTests;
+			path = ../../Tests/TSwiftCentrifugeTests;
+			sourceTree = "<group>";
+		};
+		F71A6FED2BE542F200D06243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +152,7 @@
 			);
 			name = SwiftCentrifuge_Example;
 			packageProductDependencies = (
-				3A58470428C9CF4800D85C0E /* SwiftCentrifuge */,
+				F71A6FEE2BE542F200D06243 /* TSwiftCentrifuge */,
 			);
 			productName = SwiftCentrifuge;
 			productReference = 607FACD01AFB9204008FA782 /* SwiftCentrifuge_Example.app */;
@@ -508,9 +516,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3A58470428C9CF4800D85C0E /* SwiftCentrifuge */ = {
+		F71A6FEE2BE542F200D06243 /* TSwiftCentrifuge */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = SwiftCentrifuge;
+			productName = TSwiftCentrifuge;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SwiftCentrifuge
+import TSwiftCentrifuge
 
 final class PrintLogger: CentrifugeLogger {
     func log(level: CentrifugeLoggerLevel,

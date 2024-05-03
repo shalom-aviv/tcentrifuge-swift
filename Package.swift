@@ -3,21 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftCentrifuge",
+    name: "TSwiftCentrifuge",
     products: [
-        .library(name: "SwiftCentrifuge", targets: ["SwiftCentrifuge"]),
+        .library(name: "TSwiftCentrifuge", targets: ["TSwiftCentrifuge"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-protobuf", from:"1.7.0")
     ],
     targets: [
         .target(
-            name: "SwiftCentrifuge",
+            name: "TSwiftCentrifuge",
             dependencies: ["SwiftProtobuf"]
         ),
         .testTarget(
-            name: "SwiftCentrifugeTests",
-            dependencies: ["SwiftCentrifuge"]
+            name: "TSwiftCentrifugeTests",
+            dependencies: ["TSwiftCentrifuge"]
         )
     ]
 )

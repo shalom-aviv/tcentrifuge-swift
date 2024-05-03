@@ -1,5 +1,5 @@
 import XCTest
-@testable import SwiftCentrifuge
+@testable import TSwiftCentrifuge
 
 final class SwiftCentrifugeTests: XCTestCase {
     func testExample() {

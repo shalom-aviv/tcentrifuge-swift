@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SwiftCentrifuge
+import TSwiftCentrifuge
 
 class ViewController: UIViewController {
     

@@ -1,19 +1,21 @@
 Pod::Spec.new do |s|
-    s.name                  = 'SwiftCentrifuge'
-    s.module_name           = 'SwiftCentrifuge'
+    s.name                  = 'TSwiftCentrifuge'
+    s.module_name           = 'TSwiftCentrifuge'
     s.swift_version         = '5.0'
     s.version               = '0.7.1'
 
-    s.homepage              = 'https://github.com/centrifugal/centrifuge-swift'
+    s.homepage              = 'https://github.com/shalom-aviv/tcentrifuge-swift.git'
     s.summary               = 'Centrifugo and Centrifuge client in Swift'
 
-    s.author                = { 'Alexander Emelin' => 'frvzmb@gmail.com' }
+    s.author                = { 'Shalom Aviv' => 'shalom.aviv@proton.me' }
     s.license               = { :type => 'MIT', :file => 'LICENSE' }
     s.platforms             = { :ios => '12.0' }
     s.ios.deployment_target = '12.0'
 
     s.source_files          = 'Sources/SwiftCentrifuge/*.swift', 'Sources/SwiftCentrifuge/WebSocket/*.swift'
-    s.source                = { :git => 'https://github.com/centrifugal/centrifuge-swift.git', :tag => s.version }
+    s.source                = { :git => 'https://github.com/shalom-aviv/tcentrifuge-swift.git', :tag => s.version }
+
+    s.static_framework = true
 
     s.dependency 'SwiftProtobuf'
 end
