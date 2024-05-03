@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.platforms             = { :ios => '12.0' }
     s.ios.deployment_target = '12.0'
 
-    s.source_files          = 'Sources/SwiftCentrifuge/*.swift', 'Sources/SwiftCentrifuge/WebSocket/*.swift'
+    s.source_files          = 'Sources/TSwiftCentrifuge/*.swift', 'Sources/TSwiftCentrifuge/WebSocket/*.swift'
     s.source                = { :git => 'https://github.com/shalom-aviv/tcentrifuge-swift.git', :tag => s.version }
 
     s.static_framework = true
